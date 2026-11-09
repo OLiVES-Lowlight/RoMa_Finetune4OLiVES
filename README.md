@@ -29,9 +29,9 @@ python experiments/train_roma_outdoor.py \
 - `--is_degrade`: Enable image degradation augmentation
 - `--load_pretrain`: Load pretrained RoMa weights
 
-**Finetuned model download:**
+**Finetuned model:**
 
-(model weights to be added upon publication)
+Here we present our finetuned model in `./weights/RoMa_finetuned.pth`
 
 ## Model Evaluation
 
@@ -82,14 +82,17 @@ Two advanced contrastive loss functions have been implemented:
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@article{,
-  author = {},
-  title = {},
-  year = {2026}
+@misc{li2026olivesoutdoorlowlightvideo,
+      title={OLiVES: An Outdoor Low-Light Video Benchmark for Enhancement and Segmentation}, 
+      author={Yini Li and Joanne Lin and David Blackham and David Bull and Nantheera Anantrasirichai},
+      year={2026},
+      eprint={2610.20501},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.20501}, 
 }
 ```
 
-(Citation details to be added upon publication)
 
 ## References
 
